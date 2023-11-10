@@ -1,5 +1,9 @@
+<script lang="ts" setup>
+import '~/assets/css/main.css';
+</script>
+
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
