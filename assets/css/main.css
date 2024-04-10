@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Autorich Sans';
+  font-weight: 400;
+  font-style: normal;
+  src: url('AutorichSans.woff2') format('woff2'),
+   url('AutorichSans.woff') format('woff'),
+    url('AutorichSans.ttf') format('truetype');
+}
+
+.my-custom-font {
+  font-family: 'Autorich Sans';
+}
+
+.dev {
+  border: 1px solid tomato;
+}
